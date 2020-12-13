@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="INSERT_OR_UPDATE">
+        <associated_types>d8899a0473000010f7353c78caf6a750,c1251a89db4c1010793ddf6b5e96199c</associated_types>
+        <component_dependencies/>
+        <composition>[]</composition>
+        <data/>
+        <events/>
+        <extends/>
+        <interactions/>
+        <layout>{}</layout>
+        <macroponent_dependencies/>
+        <name>My Component</name>
+        <props>[]</props>
+        <root_component display_value="x-195529-survey-viewer">577b6592c068bf42acdcf8b36ae08588</root_component>
+        <root_component_config>{}</root_component_config>
+        <schema_version>1.0.0</schema_version>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-04 00:53:37</sys_created_on>
+        <sys_id>1cd5f9b7d67bbb491616ea1a8b9313ef</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My Component</sys_name>
+        <sys_package display_value="@dev71416/survey-viewer" source="x_195529_dev7141_3">5ca5db452fcc2010677270682799b6c0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="@dev71416/survey-viewer">5ca5db452fcc2010677270682799b6c0</sys_scope>
+        <sys_update_name>sys_ux_macroponent_1cd5f9b7d67bbb491616ea1a8b9313ef</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-04 00:53:37</sys_updated_on>
+    </sys_ux_macroponent>
+</record_update>

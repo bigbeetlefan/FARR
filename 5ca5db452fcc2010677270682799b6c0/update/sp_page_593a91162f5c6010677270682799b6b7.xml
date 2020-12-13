@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page">
+    <sp_page action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <css/>
+        <draft>false</draft>
+        <dynamic_title_structure/>
+        <id>clone_take_survey</id>
+        <internal>false</internal>
+        <omit_watcher>false</omit_watcher>
+        <public>false</public>
+        <roles/>
+        <seo_script/>
+        <short_description/>
+        <sys_class_name>sp_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-07 19:56:54</sys_created_on>
+        <sys_id>593a91162f5c6010677270682799b6b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>clone_take_survey</sys_name>
+        <sys_package display_value="@dev71416/survey-viewer" source="x_195529_dev7141_3">5ca5db452fcc2010677270682799b6c0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="@dev71416/survey-viewer">5ca5db452fcc2010677270682799b6c0</sys_scope>
+        <sys_update_name>sp_page_593a91162f5c6010677270682799b6b7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-07 19:56:54</sys_updated_on>
+        <title>clone_take_survey - Test Page</title>
+        <use_seo_script>false</use_seo_script>
+    </sp_page>
+    <sys_translated_text action="delete_multiple" query="documentkey=593a91162f5c6010677270682799b6b7"/>
+</record_update>

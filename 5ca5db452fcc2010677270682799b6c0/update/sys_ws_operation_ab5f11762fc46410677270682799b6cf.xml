@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_operation">
+    <sys_ws_operation action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <consumes>application/json,application/xml,text/xml</consumes>
+        <consumes_customized>false</consumes_customized>
+        <default_operation_uri/>
+        <enforce_acl>cf9d01d3e73003009d6247e603f6a990</enforce_acl>
+        <http_method>GET</http_method>
+        <name>getSurveyObj</name>
+        <operation_script><![CDATA[(function process(/*RESTAPIRequest*/ request, /*RESTAPIResponse*/ response) {
+
+    // implement resource here	
+	var surveyId = request.queryParams.surveyid;
+	//var data = {};
+	var sp = new x_195529_dev7141_3.SurveyAPIv2();
+	var dt = sp.loadSurvey2(surveyId);
+	
+	response.setContentType("application/json");
+	response.setBody(dt);
+	return response;
+
+})(request, response);]]></operation_script>
+        <operation_uri>/api/x_195529_dev7141_3/survey_viewer</operation_uri>
+        <produces>application/json,application/xml,text/xml</produces>
+        <produces_customized>false</produces_customized>
+        <relative_path>/</relative_path>
+        <request_example/>
+        <requires_acl_authorization>false</requires_acl_authorization>
+        <requires_authentication>true</requires_authentication>
+        <requires_snc_internal_role>true</requires_snc_internal_role>
+        <short_description/>
+        <sys_class_name>sys_ws_operation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-10-27 23:36:50</sys_created_on>
+        <sys_id>ab5f11762fc46410677270682799b6cf</sys_id>
+        <sys_mod_count>28</sys_mod_count>
+        <sys_name>getSurveyObj</sys_name>
+        <sys_package display_value="@dev71416/survey-viewer" source="x_195529_dev7141_3">5ca5db452fcc2010677270682799b6c0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="@dev71416/survey-viewer">5ca5db452fcc2010677270682799b6c0</sys_scope>
+        <sys_update_name>sys_ws_operation_ab5f11762fc46410677270682799b6cf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-10-28 23:08:10</sys_updated_on>
+        <web_service_definition display_value="Survey viewer">70fedd762f446410677270682799b64f</web_service_definition>
+        <web_service_version/>
+    </sys_ws_operation>
+</record_update>

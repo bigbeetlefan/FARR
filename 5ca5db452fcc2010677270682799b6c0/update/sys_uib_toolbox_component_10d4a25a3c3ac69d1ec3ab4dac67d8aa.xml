@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_toolbox_component">
+    <sys_uib_toolbox_component action="INSERT_OR_UPDATE">
+        <description>A description of my component</description>
+        <icon>document-outline</icon>
+        <label>My Component</label>
+        <macroponent display_value="My Component">1cd5f9b7d67bbb491616ea1a8b9313ef</macroponent>
+        <sys_class_name>sys_uib_toolbox_component</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-11-04 00:53:38</sys_created_on>
+        <sys_id>10d4a25a3c3ac69d1ec3ab4dac67d8aa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>My Component</sys_name>
+        <sys_package display_value="@dev71416/survey-viewer" source="x_195529_dev7141_3">5ca5db452fcc2010677270682799b6c0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="@dev71416/survey-viewer">5ca5db452fcc2010677270682799b6c0</sys_scope>
+        <sys_update_name>sys_uib_toolbox_component_10d4a25a3c3ac69d1ec3ab4dac67d8aa</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-11-04 00:53:38</sys_updated_on>
+    </sys_uib_toolbox_component>
+</record_update>
